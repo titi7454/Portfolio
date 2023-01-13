@@ -49,7 +49,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b to-red-dark from-red-light w-full "
+      className="bg-gradient-to-b pb-10 to-red-dark from-red-light w-full "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full text-pink-light">
         <div>
@@ -61,7 +61,10 @@ const Experience = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-2 text-center w-full gap-8 py-8 px-12 sm:px-0">
           {skills.map(({ id, src, title, style }) => (
-            <div key={id} className={` bg-[#381417e1] shadow-md rounded-lg ${style}`}>
+            <div
+              key={id}
+              className={` bg-[#381417e1] shadow-md rounded-lg ${style}`}
+            >
               <img src={src} alt={title} className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>

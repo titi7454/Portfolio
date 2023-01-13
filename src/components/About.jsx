@@ -4,9 +4,9 @@ function About() {
   return (
     <div
       name="about"
-      className="w-full md:h-11/12 bg-gradient-to-b from-red-light to-red-dark text-pink-light"
+      className="w-full  bg-gradient-to-b from-red-light to-red-dark text-pink-light"
     >
-      <div className="max-w-screen-lg md:grid md:grid-cols-2 p-4 mx-auto flex flex-col w-full h-full">
+      <div className="max-w-screen-lg  md:grid md:grid-cols-2 p-4 mx-auto flex flex-col w-full ">
         <div>
           <div className="pb-8">
             <p className="text-4xl font-bold inline border-b-4 border-pink-400">
