@@ -21,6 +21,7 @@ const Home = () => {
               to="portfolio"
               smooth
               duration={500}
+              offset={-60}
               className="group text-pink-light w-fit px-6 py-3 my-2 flex cursor-pointer items-center rounded-md bg-gradient-to-r from-[#2e7850] to-[#103b24]"
             >
               Portfolio

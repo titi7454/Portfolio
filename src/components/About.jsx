@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../assets/Resume.pdf";
 
 function About() {
   return (
@@ -24,7 +25,11 @@ function About() {
           </p>
         </div>
         <div className="flex items-start md:justify-end md:mt-24 mb-24 py-8 ">
-          <a href="/resume.pdf" download={true} className="text-pink-light px-6 py-3 cursor-pointer rounded-md bg-gradient-to-r from-[#2e7850] to-[#103b24]">
+          <a
+            href={Resume}
+            download={true}
+            className="text-pink-light font-medium px-6 py-3 cursor-pointer rounded-md bg-gradient-to-r from-[#2e7850] to-[#103b24]"
+          >
             Resume
           </a>
         </div>

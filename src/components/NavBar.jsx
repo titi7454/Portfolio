@@ -25,6 +25,8 @@ const NavBar = () => {
     {
       id: 5,
       link: "contact",
+      styling:
+        "bg-black px-4 py-3 rounded-md bg-gradient-to-r from-[#2e7850] to-[#103b24]",
     },
   ];
 
@@ -37,12 +39,18 @@ const NavBar = () => {
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
+        {links.map(({ id, link, styling }) => (
           <li
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-[#eeeeee] hover:scale-125 duration-200"
           >
-            <Link to={link} smooth duration={500} offset={-80}>
+            <Link
+              className={styling}
+              to={link}
+              smooth
+              duration={500}
+              offset={-80}
+            >
               {link}
             </Link>
           </li>
