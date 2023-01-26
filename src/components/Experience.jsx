@@ -5,6 +5,7 @@ import javascript from "../assets/javascript.png";
 import reactImg from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import typescript from "../assets/typescript.png";
 
 const Experience = () => {
   const skills = [
@@ -18,7 +19,7 @@ const Experience = () => {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "shadow-blue-400",
     },
     {
       id: 3,
@@ -28,18 +29,24 @@ const Experience = () => {
     },
     {
       id: 4,
+      src: typescript,
+      title: "typescript",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 5,
       src: reactImg,
       title: "react",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 6,
       src: tailwind,
       title: "TailWind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",

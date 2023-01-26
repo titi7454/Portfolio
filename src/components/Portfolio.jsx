@@ -2,6 +2,7 @@ import React from "react";
 import EEInfo from "../assets/portfolio/EEInfo.gif";
 import WeatherApp from "../assets/portfolio/WeatherApp.gif";
 import WitcherBasics from "../assets/portfolio/WitcherBasics.gif";
+import Hangman from "../assets/portfolio/Hangman.gif";
 
 function Portfolio() {
   const portfolios = [
@@ -32,15 +33,16 @@ function Portfolio() {
         "A website using APIs to get the cities and their weather. There are also aditional buttons to see the 5-day forecast in the same city.",
       tags: "html, css, react",
     },
-    /*
     {
       id: 4,
-      src: ,
-      code: "",
-      demo: "",
-      description: "aaa",
-      tags: "",
+      src: Hangman,
+      code: "https://github.com/titi7454/Hangman",
+      demo: "https://titi7454.github.io/Hangman/",
+      description:
+      "A game of hanman with a score tracker and a hint button to help with 1 letter each round. a total of 6 mistakes can be commited.",
+      tags: "html, css, react, typescript",
     },
+    /*
     {
       id: 5,
       src: ,
