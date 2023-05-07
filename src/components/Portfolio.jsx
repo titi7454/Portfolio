@@ -3,6 +3,7 @@ import EEInfo from "../assets/portfolio/EEInfo.gif";
 import WeatherApp from "../assets/portfolio/WeatherApp.gif";
 import WitcherBasics from "../assets/portfolio/WitcherBasics.gif";
 import Hangman from "../assets/portfolio/Hangman.gif";
+import CompanyManager from "../assets/portfolio/CompanyManager.gif";
 
 function Portfolio() {
   const portfolios = [
@@ -10,28 +11,29 @@ function Portfolio() {
       id: 1,
       src: EEInfo,
       code: "https://github.com/titi7454/Ethernal-Elves-Info",
-      demo: "https://titi7454.github.io/Ethernal-Elves-Info/",
+      demo: "https://ethernal-elves-info.vercel.app/",
       description:
-        "A project where different data is pulled from APIs to show real time prices and data about nfts. It's also possible to check other people's nfts and their stats.",
+        "Analytics website for a Web3.0 project that provides it's users to check the latest prices and stats. It also provides the ability to spy on other users to create a strategy and act accordingly.",
       tags: "html, css, react",
     },
+
     {
       id: 2,
+      src: CompanyManager,
+      code: "https://github.com/titi7454/compay-manager",
+      demo: "https://company-manager-eta.vercel.app/",
+      description:
+        "A website which permits the user to create tasks, employees and projects. Each employee can be assigned with tasks and to different projects. There is also a leaderboard with the most tasks done per eemployee.",
+      tags: "html, react, tailwind",
+    },
+    {
+      id: 3,
       src: WitcherBasics,
       code: "https://github.com/titi7454/TheWitcherBasics",
       demo: "https://titi7454.github.io/TheWitcherBasics/",
       description:
-        "Information about different enemies, maps and schools in The witcher 3. The data is stored locally and can be accessed through the different interfaces.",
+        "Wikipedia website about The witcher 3 which helps the user by showing useful information about the enemies' weak points and loot",
       tags: "html, tailwind, react",
-    },
-    {
-      id: 3,
-      src: WeatherApp,
-      code: "https://github.com/titi7454/weather-app",
-      demo: "https://titi7454.github.io/weather-app/",
-      description:
-        "A website using APIs to get the cities and their weather. There are also aditional buttons to see the 5-day forecast in the same city.",
-      tags: "html, css, react",
     },
     {
       id: 4,
@@ -39,18 +41,20 @@ function Portfolio() {
       code: "https://github.com/titi7454/Hangman",
       demo: "https://titi7454.github.io/Hangman/",
       description:
-      "A game of hanman with a score tracker and a hint button to help with 1 letter each round. a total of 6 mistakes can be commited.",
+        "A game of hanman with a score tracker and a hint button to help with 1 letter each round. A total of 6 mistakes can be commited.",
       tags: "html, css, react, typescript",
     },
-    /*
     {
       id: 5,
-      src: ,
-      code: "",
-      demo: "",
-      description: "aaa",
-      tags: "",
+      src: WeatherApp,
+      code: "https://github.com/titi7454/weather-app",
+      demo: "https://titi7454.github.io/weather-app/",
+      description:
+        "A website bringing forth a chosen city and it's weather. There is also the option to see the 5-day forecast.",
+      tags: "html, css, react",
     },
+
+    /*
     {
       id: 6,
       src: ,

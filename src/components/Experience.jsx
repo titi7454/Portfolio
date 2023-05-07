@@ -30,13 +30,13 @@ const Experience = () => {
     {
       id: 4,
       src: typescript,
-      title: "typescript",
+      title: "Typescript",
       style: "shadow-blue-500",
     },
     {
       id: 5,
       src: reactImg,
-      title: "react",
+      title: "React",
       style: "shadow-blue-600",
     },
     {
